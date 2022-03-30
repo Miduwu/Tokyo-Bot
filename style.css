@@ -1,10 +1,6 @@
 body{
     background-color: #141420
 }
-hr{
-    margin-bottom: 8px;
-    margin-top:8px;
-}
 h1{
     text-align: center;
     text-decoration: blanchedalmond;
@@ -14,17 +10,6 @@ h1{
     margin-bottom: -22px;
     margin-left: 20px;
     font-size: 40px;
-    font-style: bold;
-}
-h2{
-    text-align: right;
-    text-decoration: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:white;
-    -webkit-text-stroke: 1px red;
-    text-size-adjust: 90px;
-    margin-bottom: -22px;
-    margin-left: 20px;
     font-style: bold;
 }
 h4{
@@ -39,16 +24,6 @@ h4{
 .senter{
     text-align: center;
     align-content: center;
-}
-.img-size{
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-    margin-bottom: -12px;
-}
-.text-center {
-    text-align: center;
-    text-shadow: black;
 }
 #boton-1 {
     display: inline-block;
@@ -67,7 +42,6 @@ h4{
   #boton-1:hover{
     background:#2a3f61;
     text-align: center;
-    padding:17px;
     border-radius: 4px;
     color: #ffffff;
     text-decoration: blanchedalmond;
@@ -89,23 +63,13 @@ h4{
     }
   #boton-2:hover{
     background:#6d2d40;
-    padding: 17px;
     text-align: center;
     border-radius: 4px;
     color: #ffffff;
     text-decoration: blanchedalmond;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  .img-boton{
-      width: 18px;
-      margin-bottom: -1px;
-
-  }
-  #img-boton-1{
-      width: 18px;
-      margin-bottom:-3px;
-  }
-    #header-logo {
+  #header-logo {
         float: left;
         padding: 15px 0 0 20px;
         text-size-adjust: 90px;
@@ -116,156 +80,60 @@ h4{
     text-decoration: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
-    margin-bottom: -30px;
+    line-height: 30px;
     font-weight: 800;
     }
-/*
- * Navegación
- */
-nav {
-    float:right;
-}
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-                margin-right: 15px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-				text-decoration: none;
-                font-weight: 600;
-			}
-            nav ul li #img-1{
-                width:25px;
-                margin-bottom: -3px;
-                margin-right: 6px;
+    nav {
+        float:right;
+    }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            padding-right: 20px;
+        }
+        
+            nav ul li {
+                display: inline-block;
+                line-height: 70px;
             }
-            nav ul li #img-2{
-                width:22px;
-                margin-bottom: -4px;
-                margin-right: 6px;
-            }
-			
-				nav ul li a:hover {
-					background: #422cac;
-				}
-                #logo-header {
-                    float: left;
-                    padding: 15px 0 0 20px;
+                
+                nav ul li a {
+                    display: block;
+                    padding: 0 20px;
+                    margin-right: 15px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                     text-decoration: none;
+                    font-weight: 600;
                 }
-
-                #main-header {
-                    background: #2d2461;
-                    color: white;
-                    height: 80px;
-                }	
-                    #main-header a {
-                        color: white;
+                nav ul li #img-1{
+                    width:25px;
+                    margin-bottom: -3px;
+                    margin-right: 6px;
+                }
+                nav ul li #img-2{
+                    width:22px;
+                    margin-bottom: -4px;
+                    margin-right: 6px;
+                }
+                
+                    nav ul li a:hover {
+                        background: #322186;
                     }
-.show{
-    margin-left: 20px;
-}
-.deresha{
- position:absolute;
- left:47%;
-}
-.abajo{
-margin-left: 19.8px;
-}
-.exposicion{
-    color:white;
-    list-style-type:none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 33px;
-    margin-top: 70px;
-}
-.subtitulo{
-    font-size:43px;
-    text-align: right;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:white;
-    text-size-adjust: 90px;
-    margin-bottom: -30px;
-    margin-top: 10px;
-    margin-left: 20px;
-    font-style: bold;
-}
-.red{
-    -webkit-text-stroke: 1px red;
-}
-.rosa-one{
-    -webkit-text-stroke: 1px pink;
-    font-size: 29px;
-    font-style: bold;
-}
-.rosa-two{
-    -webkit-text-stroke: 1px rgb(240, 123, 143);
-    font-size: 25px;
-}
-.teisto{
-    left: 48%;
-    margin-bottom: 3px;
-}
-.features{
-    width: 40%;
-    height:355px;
-    float:right;
-    color:white;
-    margin-top: -300px;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .big{
-    text-decoration: blanchedalmond;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:white;
-    font-size: 40px;
-    font-style: bold;
-}
-/* Tooltip container */
-.tooltip {
-    position:relative;
-    display: inline-block;
-  }
-  
-  /* Tooltip text */
-  .tooltip .tooltiptext {
-    display: inline-block;
-    visibility: hidden;
-    width: 200px;
-    background-color: black;
-    opacity: 60%;
-    padding: 2px;
-    color: #fff;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    bottom: 100%;
-    -webkit-text-stroke:#fff;
-    left: 50%;
-    border-radius: 6px;
-   
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  /* Show the tooltip text when you mouse over the tooltip container */
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
+                    #main-header {
+                        background: #2d2461;
+                        color: white;
+                        height: 70px;
+                    }	
+                        #main-header a {
+                            color: white;
+                        }
+                        .img-size{
+                            width: 50px;
+                            height: 50px;
+                            margin-right: 5px;
+                            margin-bottom: -12px;
+                        }
+                        #logo {
+                            align-content: center;
+                        }
