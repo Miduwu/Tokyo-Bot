@@ -157,7 +157,7 @@ nav {
             }
 			
 				nav ul li a:hover {
-					background: #ac2c52;
+					background: #422cac;
 				}
                 #logo-header {
                     float: left;
@@ -166,7 +166,7 @@ nav {
                 }
 
                 #main-header {
-                    background: #632f3f;
+                    background: #2d2461;
                     color: white;
                     height: 80px;
                 }	
