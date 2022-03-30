@@ -1,14 +1,5 @@
 body{
-    background-image: url('/assets/img.png');
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-#features{
-    background-color: rgba(14, 12, 12, 0.582);
-    padding:30px;
-    margin:10px
+    background-color: #141420
 }
 hr{
     margin-bottom: 8px;
@@ -222,14 +213,6 @@ margin-left: 19.8px;
     -webkit-text-stroke: 1px rgb(240, 123, 143);
     font-size: 25px;
 }
-.box{
-    width:55%;
-    height:355px;
-    background-color: #141414;
-    opacity: 50%;
-    color:whitesmoke;
-    float:right 
-}
 .teisto{
     left: 48%;
     margin-bottom: 3px;
@@ -253,13 +236,6 @@ margin-left: 19.8px;
     color:white;
     font-size: 40px;
     font-style: bold;
-}
-.box-2{
-    width:55%;
-    height:355px;
-    background-color: #141414;
-    opacity: 50%;
-    color:whitesmoke;
 }
 /* Tooltip container */
 .tooltip {
